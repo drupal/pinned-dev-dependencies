@@ -1,23 +1,26 @@
-# drupal/core-recommended-dev-dependencies
+# drupal/pinned-dev-dependencies
 
 This project is for use with a Composer-managed Drupal site. This project is
-only needed to run the Drupal test suite on the site. Most sites probably do
-not need to use this project.
+only needed to run the Drupal test suite on the site, and even then, it is
+generally preferable to use the project `drupal/dev-dependencies` instead of
+this one.
 
 ## Updating
 
 This project is pinned to a specific version of `drupal/core`; it is therefore
 slightly more difficult to update if used in conjunction with
-`drupal/core-recommended-dependencies`. Both metapackages must be upgraded
+`drupal/core-recommended`. Both metapackages must be upgraded
 together:
 ```
-$ composer update drupal/core-recommended-dependencies drupal/core-recommended-dev-dependencies --with-dependencies
+$ composer update drupal/core-recommended drupal/pinned-dev-dependencies --with-dependencies
 ```
-If your project is not using `drupal/core-recommended-dependencies`, then
+If your project is not using `drupal/core-recommended`, then
 this project can be upgraded directly:
 ```
-$ composer update drupal/core-recommended-dev-dependencies --with-dependencies
+$ composer update drupal/pinned-dev-dependencies --with-dependencies
 ```
+However, it is not recommended to use this project unless you are also using
+`drupal/core-recommended`.
 
 ## References
 
