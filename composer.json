@@ -34,10 +34,10 @@
         "sebastian/recursion-context": "1.0.5",
         "sebastian/version": "1.0.6",
         "squizlabs/php_codesniffer": "2.8.1",
-        "symfony/browser-kit": "v3.4.4",
-        "symfony/css-selector": "v3.4.4",
-        "symfony/dom-crawler": "v3.4.4",
-        "symfony/phpunit-bridge": "v3.4.4"
+        "symfony/browser-kit": "v3.4.11",
+        "symfony/css-selector": "v3.4.11",
+        "symfony/dom-crawler": "v3.4.11",
+        "symfony/phpunit-bridge": "v3.4.11"
     },
     "conflict": {
         "drupal/core-dev-dependencies": "*"
