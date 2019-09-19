@@ -57,7 +57,6 @@
         "theseer/tokenizer": "1.1.2"
     },
     "conflict": {
-        "drupal/dev-dependencies": "*",
         "webflo/drupal-core-require-dev": "*"
     }
 }
