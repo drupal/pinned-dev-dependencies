@@ -38,7 +38,6 @@
         "symfony/phpunit-bridge": "v3.2.8"
     },
     "conflict": {
-        "drupal/dev-dependencies": "*",
         "webflo/drupal-core-require-dev": "*"
     }
 }
