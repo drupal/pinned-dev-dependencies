@@ -36,7 +36,6 @@
         "symfony/dom-crawler": "v2.8.18"
     },
     "conflict": {
-        "drupal/dev-dependencies": "*",
         "webflo/drupal-core-require-dev": "*"
     }
 }
